@@ -35,7 +35,7 @@ def main():
         st.image(img,width=640)
         # st.video(data, format="video/mp4", start_time=0)
         with st.spinner('Predicting...'):
-            result=model(img,size=1920)
+            result=model(img,size=640)
             l= result.pandas().xyxy[0]['name']
         d={}
         for i in l:
