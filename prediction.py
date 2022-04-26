@@ -84,15 +84,6 @@ def main():
         <style>
         #MainMenu {visibility: hidden; }
         footer {visibility: hidden;}
-	footer:after {
-	content:'Team SMOTE'; 
-	visibility: visible;
-	display: block;
-	position: relative;
-	#background-color: red;
-	padding: 5px;
-	top: 2px;
-}
         </style>
         """
   st.markdown(hide_menu_style, unsafe_allow_html=True)
