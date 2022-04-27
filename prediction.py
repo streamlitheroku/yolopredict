@@ -95,6 +95,7 @@ def main():
       set_bg_hack_url()
       home()
   elif page == "Predict":
+	set_bg_hack_url()
       predict()
   elif page == "About":
       set_bg_hack_url()
