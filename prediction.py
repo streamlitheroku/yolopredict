@@ -21,7 +21,7 @@ def set_bg_hack_url():
          f"""
          <style>
          .stApp {{
-             background: url("https://www.pixelstalk.net/wp-content/uploads/images2/Download-Free-African-Animals-Wallpapers.png");
+             background: url("https://wallpaperaccess.com/full/2757600.jpg");
              background-size: cover;
 
          }}
